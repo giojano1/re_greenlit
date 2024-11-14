@@ -26,5 +26,5 @@ body {
   }
 }
 .container {
-  @apply max-w-[1400px] px-10 mx-auto;
+  @apply max-w-[1400px] mx-auto;
 }

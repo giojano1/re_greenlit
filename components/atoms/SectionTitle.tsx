@@ -3,7 +3,7 @@ type SectionTitleProps = {
 };
 const SectionTitle = ({ label }: SectionTitleProps) => {
   return (
-    <div className="flex items-center  w-full gap-8">
+    <div className="flex items-center  w-full gap-8 px-10">
       <h2 className="text-[40px] font-extralight text-black leading-[1]">
         {label}
       </h2>
