@@ -1,4 +1,4 @@
-import Certifications from "@/components/molecules/certifications";
+import Certifications from "@/components/molecules/certificationSection";
 import React from "react";
 
 export default function Home() {
