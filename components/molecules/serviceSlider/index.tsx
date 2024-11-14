@@ -20,7 +20,7 @@ const ServiceSlider = () => {
           }}
           speed={1000}
           autoplay={{
-            delay: 3000,
+            delay: 1500,
             disableOnInteraction: false,
           }}
           breakpoints={{
