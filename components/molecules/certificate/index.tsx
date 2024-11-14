@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+
 import { certifications } from "@/constants";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -34,6 +34,7 @@ const Certificate = () => {
                 width={0}
                 height={0}
                 sizes="100vw"
+                priority
                 className={cn(
                   "h-full w-full relative object-cover transition-all duration-300",
                   active !== null && !isActive && "blur-[10px]"

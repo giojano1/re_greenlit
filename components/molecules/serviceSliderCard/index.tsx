@@ -1,4 +1,4 @@
-import { ArrowBigDown, ArrowUp } from "lucide-react";
+import { ArrowUp } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -23,6 +23,7 @@ const ServiceSliderCard = ({
         height={0}
         sizes="100vw"
         className="w-full h-full object-cover rounded-[20px]"
+        priority
       />
       <div className="absolute bottom-[0px] left-[0px] p-[30px]">
         <h3 className="text-4xl font-bold max-w-[500px]">{data.title}</h3>
