@@ -50,9 +50,9 @@ const Certificate = () => {
                     isActive && active === 4 && "mr-[260px]  max-w-[70%]"
                   )}
                 >
-                  <h3 className="text-2xl font-bold">{c.title}</h3>
+                  <h3 className="text-2xl font-bold text-white">{c.title}</h3>
 
-                  <p className="text-[20px] mt-6">{c.description}</p>
+                  <p className="text-[20px] mt-6 text-white">{c.description}</p>
                 </div>
               )}
             </div>
